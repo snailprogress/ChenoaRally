@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/jaimeskaggs/Documents/AndroidStudioProjects/ChenoaRally/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/jaimeskaggs/Documents/AndroidStudioProjects/ChenoaRally/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-52da9288c29c6b9fa3ed267a9add57418f31d157.jar" />
+    </item>
+    <item
+        jar="/Users/jaimeskaggs/Documents/AndroidStudioProjects/ChenoaRally/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/jaimeskaggs/Documents/AndroidStudioProjects/ChenoaRally/app/build/intermediates/pre-dexed/debug/classes-431b4dd504613069a06471221ea5c95055bbd1e2.jar" />
+    </item>
+    <item
+        jar="/Users/jaimeskaggs/Documents/AndroidStudioProjects/ChenoaRally/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/jaimeskaggs/Documents/AndroidStudioProjects/ChenoaRally/app/build/intermediates/pre-dexed/debug/classes-afa4db3968c8b6cc62b09cdf22d0cc4ebca1005e.jar" />
+    </item>
+    <item
+        jar="/Users/jaimeskaggs/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/jaimeskaggs/Documents/AndroidStudioProjects/ChenoaRally/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-df9c9de2415c5aa36f6e43b59930d6eff214102e.jar" />
+    </item>
+
+</items>

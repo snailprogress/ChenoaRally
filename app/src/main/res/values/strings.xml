@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ChenoaRally</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_clue_list">ClueListActivity</string>
+
+
+    <string-array name="checkpoint_1_clues">
+        <item>L FOPP after green river</item>
+        <item>R 3OPP after wine tree</item>
+        <item>R 4OPP after twin bins</item>
+        <item>L FOPP after gavanized duck blind</item>
+    </string-array>
+    <string name="title_activity_scores">Scores</string>
+</resources>

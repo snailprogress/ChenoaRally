@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:textSize="20dp"
+            android:text="Route"
+            android:id="@+id/textView6"
+            android:background="#00bcd4"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:textSize="20dp"
+            android:text="Checkpoint"
+            android:id="@+id/textView6"
+            android:background="#00b325"
+            android:textColor="#FFFFFF"
+            android:layout_weight="4"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="60dp"
+            android:text="57"
+            android:id="@+id/textView6"
+            android:background="#00bcd4"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:fontFamily="sans-serif-light" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="60dp"
+            android:text="1:07"
+            android:id="@+id/textView6"
+            android:background="#00b325"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:fontFamily="sans-serif-light" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="miles"
+            android:id="@+id/textView6"
+            android:background="#00bcd4"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:fontFamily="sans-serif-light"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="time"
+            android:id="@+id/textView6"
+            android:background="#00b325"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:fontFamily="sans-serif-light"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="60dp"
+            android:text="0"
+            android:id="@+id/textView6"
+            android:background="#00bcd4"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:fontFamily="sans-serif-light"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="60dp"
+            android:text="240"
+            android:id="@+id/textView6"
+            android:background="#00b325"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:fontFamily="sans-serif-light"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.36">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="penalties"
+            android:id="@+id/textView6"
+            android:background="#00bcd4"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:fontFamily="sans-serif-light"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="score"
+            android:id="@+id/textView6"
+            android:background="#00b325"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:fontFamily="sans-serif-light"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dashboard"
+            android:id="@+id/buttonDashboard" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clues"
+            android:id="@+id/buttonClues"
+            android:onClick="showClues"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scores"
+            android:id="@+id/buttonScores"
+            android:onClick="showScores"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
