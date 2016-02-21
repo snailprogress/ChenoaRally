@@ -45,6 +45,7 @@ public class ScoresActivityFragment extends Fragment {
 
 
         List<HashMap<String, String>> fullMap = new ArrayList<HashMap<String, String>>();
+
         HashMap<String, String> map = new HashMap<String, String>();
         map.put("col1", "1");
         map.put("col2", "10 miles");
@@ -52,20 +53,36 @@ public class ScoresActivityFragment extends Fragment {
         map.put("col4", "87");
         fullMap.add(map);
 
+        HashMap<String, String> map2 = new HashMap<String, String>();
+        map2.put("col1", "2");
+        map2.put("col2", "18 miles");
+        map2.put("col3", "27 min");
+        map2.put("col4", "64");
+        fullMap.add(map2);
 
-//        HashMap<String, String> map1 = new HashMap<String, String>();
-//        map1.put("col1", "1");
-//        map1.put("col2", "20");
- //       map1.put("col3", "35");
- //       map1.put("col4", "120");
-//        mylistData.add(map1);
 
-//        HashMap<String,String> map2 = new HashMap<String, String>();
-//        map2.put("col1", "2");
-//        map2.put("col2", "20");
-//        map2.put("col3", "35");
-//        map2.put("col4", "120");
-//        mylistData.add(map2);
+        HashMap<String, String> map3 = new HashMap<String, String>();
+        map3.put("col1", "3");
+        map3.put("col2", "9 miles");
+        map3.put("col3", "18 min");
+        map3.put("col4", "22");
+        fullMap.add(map3);
+
+        HashMap<String, String> map4 = new HashMap<String, String>();
+        map4.put("col1", "4");
+        map4.put("col2", "0 miles");
+        map4.put("col3", "0 min");
+        map4.put("col4", "0");
+        fullMap.add(map4);
+
+        HashMap<String, String> map5 = new HashMap<String, String>();
+        map5.put("col1", "5");
+        map5.put("col2", "0 miles");
+        map5.put("col3", "0 min");
+        map5.put("col4", "0");
+        fullMap.add(map5);
+
+
 //        for(int i=0; i<4; i++)
 //        {
 //            HashMap<String,String> map = new HashMap<String, String>();

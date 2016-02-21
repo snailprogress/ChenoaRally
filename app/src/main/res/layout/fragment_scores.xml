@@ -4,6 +4,79 @@
     android:orientation="vertical" >
 
 
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView android:id="@+id/totalMiles"
+            android:textSize="25sp"
+            android:textStyle="normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Miles"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#00b325"
+            android:textColor="#FFFFFF"/>
+
+
+        <TextView android:id="@+id/totalMinutes"
+            android:textSize="25sp"
+            android:textStyle="normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+        <TextView android:id="@+id/totalScore"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+            <TextView android:id="@+id/totalMiles"
+                android:textSize="25sp"
+                android:textStyle="normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="62"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+
+            <TextView android:id="@+id/totalMinutes"
+                android:textSize="25sp"
+                android:textStyle="normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1:07"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView android:id="@+id/totalScore"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="102"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+    </LinearLayout>
+
     <ListView
         android:id="@+id/scoresListView"
         android:layout_width="match_parent"
